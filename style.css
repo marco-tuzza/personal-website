@@ -6,10 +6,17 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #000;
-  color: #fff;
+  background-color: #010101;
+}
+
+.container {
+  margin: 35px;
+  width: calc(100vw - 70px);
+  height: calc(100vh - 70px);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  background-color: #010101;
+  border: 1px solid #fff;
+  color: #fff;
 }

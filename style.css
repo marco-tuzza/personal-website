@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #010101;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: #0e1111;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #010101;
+  background-color: #0e1111;
   border: 1px solid #fff;
   color: #fff;
 }

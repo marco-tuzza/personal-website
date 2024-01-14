@@ -51,9 +51,17 @@ nav a {
   color: #fff;
   font-size: 1rem;
   font-weight: 500;
+  text-underline-offset: 0.5rem;
+}
+
+nav li a:hover {
+  text-decoration: underline;
 }
 
 nav li.selected a {
   text-decoration: underline;
-  text-underline-offset: 0.5rem;
+}
+
+nav li.selected a:hover {
+  text-decoration: none;
 }

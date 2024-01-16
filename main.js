@@ -1,7 +1,7 @@
 activateNavItem();
 
 function activateNavItem() {
-    const navItems = document.querySelectorAll('li');
+    const navItems = document.querySelectorAll('.navbar-element');
 
     navItems.forEach(item => {
         item.addEventListener('click', () => {

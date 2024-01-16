@@ -1,7 +1,7 @@
 # Personal Website
 
 ## Description
-This is the repository for my personal website, currently under development.
+This is the repository for my personal website.
 
 ## Technologies Used
 - HTML

@@ -33,20 +33,20 @@ h2 {
   font-weight: 500;
 }
 
-nav {
+#navbar {
   padding: 20px 35px;
 }
 
-nav ul {
+#navbar-elements-list {
   list-style: none;
   margin-top: 20px;
 }
 
-nav li {
+.navbar-element {
   margin-bottom: 1rem;
 }
 
-nav a {
+.navbar-element-link {
   text-decoration: none;
   color: #fff;
   font-size: 1rem;
@@ -54,14 +54,14 @@ nav a {
   text-underline-offset: 0.5rem;
 }
 
-nav li a:hover {
+.navbar-element-link:hover {
   text-decoration: underline;
 }
 
-nav li.selected a {
+.navbar-element.selected .navbar-element-link {
   text-decoration: underline;
 }
 
-nav li.selected a:hover {
+.navbar-element.selected .navbar-element-link:hover {
   text-decoration: none;
 }

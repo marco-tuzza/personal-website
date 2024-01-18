@@ -65,3 +65,27 @@ h2 {
 .navbar-element.selected .navbar-element-link:hover {
   text-decoration: none;
 }
+
+/* Light Mode */
+
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+body.light-mode .container {
+  background-color: #fff;
+  border: 1px solid #0e1111;
+}
+
+body.light-mode h1, body.light-mode h2 {
+  color: #0e1111;
+}
+
+body.light-mode header {
+  border-bottom: 1px solid #0e1111;
+}
+
+body.light-mode .navbar-element-link {
+  color: #0e1111;
+}

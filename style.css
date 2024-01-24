@@ -72,6 +72,28 @@ h2 {
   text-decoration: none;
 }
 
+#theme-toggle {
+  color: #0e1111;
+  background-color: #E0E1E4;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#theme-toggle-light {
+  color: #E0E1E4;
+  background-color: #0e1111;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
 /* Light Mode */
 
 body.light-mode {

@@ -7,6 +7,7 @@
 body {
   font-family: 'JetBrains Mono', monospace;
   background-color: #0e1111;
+  transition: 1s;
 }
 
 .container {
@@ -16,6 +17,7 @@ body {
   background-color: #0e1111;
   border: 1px solid #E0E1E4;
   color: #E0E1E4;
+  transition: 1s;
 }
 
 header {
@@ -23,16 +25,19 @@ header {
   border-bottom: 1px solid #E0E1E4;
   display: flex;
   justify-content: space-between;
+  transition: 1s;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: 500;
+  transition: 1s;
 }
 
 h2 {
   font-size: 1rem;
   font-weight: 500;
+  transition: 1s;
 }
 
 #theme-toggle {
@@ -58,6 +63,7 @@ h2 {
   font-size: 1rem;
   font-weight: 500;
   text-underline-offset: 0.5rem;
+  transition: 1s;
 }
 
 .navbar-element-link:hover {
@@ -81,6 +87,8 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
+  
 }
 
 #theme-toggle-light {
@@ -93,27 +101,35 @@ h2 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: 1s;
+  
 }
+
 /* Light Mode */
 
 body.light-mode {
   background-color: #E0E1E4;
   color: #000;
+  transition: 1s;
 }
 
 body.light-mode .container {
   background-color: #E0E1E4;
   border: 1px solid #0e1111;
+  transition: 1s;
 }
 
 body.light-mode h1, body.light-mode h2, body.light-mode #theme-toggle {
   color: #0e1111;
+  transition: 1s;
 }
 
 body.light-mode header {
   border-bottom: 1px solid #0e1111;
+  transition: 1s;
 }
 
 body.light-mode .navbar-element-link {
   color: #0e1111;
+  transition: 1s;
 }

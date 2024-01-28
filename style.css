@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  padding: 20px 35px;
+  padding: 20px 20px;
   border-bottom: 1px solid #E0E1E4;
   display: flex;
   justify-content: space-between;
@@ -41,12 +41,11 @@ h2 {
 }
 
 #navbar {
-  padding: 20px 35px;
+  padding: 20px 20px;
 }
 
 #navbar-elements-list {
   list-style: none;
-  margin-top: 20px;
 }
 
 .navbar-element {

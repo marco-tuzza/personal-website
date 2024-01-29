@@ -24,6 +24,7 @@ header {
   border-bottom: 1px solid #E0E1E4;
   display: flex;
   justify-content: space-between;
+  height: 110px;
 }
 
 h1 {
@@ -41,15 +42,22 @@ h2 {
 }
 
 #navbar {
-  padding: 20px 20px;
+  padding-left: 20px;
+  height: calc(100% - 110px);
+  width: 150px;
+  border-right: 1px solid #E0E1E4;
 }
 
 #navbar-elements-list {
   list-style: none;
 }
 
+.navbar-element:first-child {
+  padding-top: 1rem;
+}
+
 .navbar-element {
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar-element-link {

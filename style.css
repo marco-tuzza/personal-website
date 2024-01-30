@@ -27,6 +27,12 @@ header {
   height: 110px;
 }
 
+header div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: columngit;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 500;
@@ -36,7 +42,6 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: 500;
-  line-height: 3;
 }
 
 #theme-toggle {

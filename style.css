@@ -124,6 +124,10 @@ body.light-mode .navbar-element-link {
   color: #0e1111;
 }
 
+body.light-mode #navbar {
+  border-color: #0e1111;
+}
+
 #theme-toggle-light {
   color: #E0E1E4;
   background-color: #0e1111;

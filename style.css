@@ -30,7 +30,7 @@ header {
 header div {
   display: flex;
   justify-content: space-between;
-  flex-direction: columngit;
+  flex-direction: column;
 }
 
 h1 {
@@ -49,9 +49,10 @@ h2 {
 }
 
 #navbar {
+  display: inline-block;
   padding-left: 20px;
+  padding-right: 20px;
   height: calc(100% - 110px);
-  width: 150px;
   border-right: 1px solid #E0E1E4;
 }
 

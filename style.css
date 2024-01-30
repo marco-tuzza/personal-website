@@ -27,9 +27,16 @@ header {
   height: 110px;
 }
 
+header div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: columngit;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 500;
+  line-height: 1;
 }
 
 h2 {

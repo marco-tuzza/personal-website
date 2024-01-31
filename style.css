@@ -84,10 +84,6 @@ h2 {
   text-decoration: underline;
 }
 
-.navbar-element.selected .navbar-element-link:hover {
-  text-decoration: none;
-}
-
 #theme-toggle {
   color: #0e1111;
   background-color: #E0E1E4;

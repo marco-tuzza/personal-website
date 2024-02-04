@@ -99,6 +99,9 @@ section h3 {
   margin-bottom: 1rem;
 }
 
+section p {
+  text-align: justify;
+}
 
 #theme-toggle {
   color: #0e1111;

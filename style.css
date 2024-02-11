@@ -49,15 +49,13 @@ h2 {
 }
 
 main {
-  height: 100%;
+  height: calc(100% - 110px);
   display: flex;
 }
 
 #navbar {
-  display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
-  height: calc(100% - 110px);
   border-right: 1px solid #E0E1E4;
 }
 
@@ -91,7 +89,6 @@ main {
 
 section {
   padding: 20px 20px;
-  overflow-y: scroll;
 }
 
 section h3 {

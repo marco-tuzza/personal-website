@@ -13,8 +13,5 @@ This is the repository for my personal website.
 ## Current Status
 The site is currently in the development stage. I want to create a simple, clean, and responsive website to showcase my work and projects. The site will be built using HTML, CSS, and JavaScript.
 
-## Contributing
-At this moment, I am not looking for external contributions, but suggestions and feedback are always welcome. Feel free to open an issue to discuss any ideas or suggestions.
-
 ### Notes
 This README will be updated as the project progresses.
